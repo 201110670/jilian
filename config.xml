@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<widget xmlns="http://www.w3.org/ns/widgets"
+        xmlns:rim="http://www.blackberry.com/ns/widgets"
+        version="1.0.0" id="ibantayph">
+  <author href=""
+          rim:copyright="">Jilian Marie D. Gonzaga</author>
+
+  <name>Go Bingo & Share</name>
+
+  <description>
+    This App. is to randomly give nos. for the game BINGO.
+  </description>
+
+  <feature id="blackberry.system"/>
+  <feature id="blackberry.invoke.card" />
+  <feature id="blackberry.ui.toast"/>
+  <feature id="blackberry.ui.dialog"/>
+  
+  <feature id="blackberry.app">
+    <param name="orientation" value="portrait" />
+	<param name="formControl" value="disable" />
+  </feature>
+
+  <content src="index.html" />
+
+  <icon src="images/logo.png"/>
+  
+	
+  
+<access uri="*" subdomains="true"/>
+
+ 
+  <rim:permissions>
+  <rim:permit>access_shared</rim:permit>
+  </rim:permissions>
+
+</widget>
