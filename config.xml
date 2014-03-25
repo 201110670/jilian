@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <widget xmlns="http://www.w3.org/ns/widgets"
         xmlns:rim="http://www.blackberry.com/ns/widgets"
-        version="1.0.0" id="ibantayph">
+        version="1.0.0" id="bingo101">
   <author href=""
           rim:copyright="">Jilian Marie D. Gonzaga</author>
 
@@ -23,7 +23,7 @@
 
   <content src="index.html" />
 
-  <icon src="images/logo.png"/>
+  <icon src="icon.png"/>
   
 	
   
